@@ -1,0 +1,198 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: none;
+  padding-right: none;
+  padding-left: none;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#indicators button {
+  border: none;
+  background-color: white;
+  color: none;
+}
+
+.card-header {
+  color: black;
+  font-weight: 600;
+  background-color: white;
+}
+
+@media screen and (max-width: 993px) {
+  #mainNav .navbar-brand {
+    font-size: 22px;
+  }
+
+  #description h2 {
+    font-size: 12px;
+  }
+  #description h1 {
+    font-size: 22px;
+  }
+  #description p {
+    font-size: 12px;
+  }
+  #description h3 {
+    font-size: 16px;
+  }
+  #addToCartBtn {
+    font-size: 12px;
+  }
+
+  #quantity {
+    font-size: 12px;
+  }
+  #description span {
+    font-size: 12px;
+  }
+  #description .rectangle {
+    width: 30px;
+    height: 15px;
+  }
+  #imageCarousel img {
+    border-radius: 0;
+  }
+}
+
+@media screen and (min-width: 994px) {
+  #description h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  #imageCarousel img {
+    border-radius: 25px;
+  }
+}
+
+#description h2 {
+  color: hsl(26, 100%, 55%);
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+#description h1 {
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+}
+
+#description p {
+  color: hsl(219, 9%, 45%);
+}
+#description h3 {
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+}
+
+#discountIcon {
+  height: 20px;
+  width: 40px;
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 5px;
+  display: inline-block;
+  color: hsl(26, 100%, 55%);
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+}
+
+#addBtn,
+#removeBtn,
+#quantity {
+  background-color: hsl(223, 64%, 98%);
+  border: none;
+}
+
+#quantity {
+  width: 50px;
+}
+
+#addToCartBtn,
+#checkoutBtn {
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+}
+#addToCartBtn svg {
+  filter: white;
+}
+
+#offCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0px;
+  z-index: 15;
+  padding-top: 23px;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+#offCanvas ul {
+  margin-top: 10px;
+}
+
+#offCanvas .nav-link {
+  color: hsl(0, 0%, 0%);
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+#toggleButtonClose {
+  margin-left: 20px;
+}
+
+#indicators img {
+  border-radius: 10px;
+}
+
+#emptyCart {
+  display: block;
+  color: hsl(219, 9%, 45%);
+}
+
+#fullCart {
+  display: none;
+}
+
+#cardImage {
+  width: min-content;
+}
+
+#delete {
+  width: 45px;
+}
+
+#shoppingCardSign {
+  position: relative;
+}
+
+#itemQuantity {
+  top: 20px;
+  right: 75px;
+  position: absolute;
+  display: none;
+  height: 18px;
+  width: 25px;
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 5px;
+  color: hsl(26, 100%, 55%);
+  font-size: 12px;
+  text-align: center;
+}
